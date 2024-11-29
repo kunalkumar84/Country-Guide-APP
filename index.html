@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>COUNTRY INFORMATION </h1>
+
+        <div class="input-group">
+            <input id="Country-input" type="text" placeholder="Enter Country Name">
+            <Button id="searchBtn">Search</Button>
+        </div>
+
+        <div id="Country-info" class="hide">
+            <div id="flex">
+                <div style="width:105px;
+                height: 40px;
+                font-size:24px;
+                margin:0;
+                border:1px solid black;
+                padding:33px;
+                background-color:#DFCF;
+                border-radius:5px;
+                color:black;" class="info-container">
+                    <h2 id="CountryName"></h2>
+
+                </div>
+                <div class="info-container">
+                    <img style="width: 170px; height: 110px;" id="CountryFlag" alt="Flag">
+
+                </div>
+
+            </div>
+
+            <p><strong>Capital :</strong><span id="capital"></span></p>
+            <p><strong>Population :</strong><span id="population"></span></p>
+            <p><strong>Currency :</strong><span id="currency"></span></p>
+            <p><strong>Language :</strong><span id="language"></span></p>
+            <p><strong>Continent :</strong><span id="continent"></span></p>
+
+
+        </div>
+
+        <p id="errorMessage" class="hide">Country not found. Please try again.</p>
+
+    </div>
+
+
+
+
+    <script src="aap.js"></script>
+</body>
+
+</html>
